@@ -1,0 +1,29 @@
+:root {
+    --primary: #fa3d3d !important;
+    --primary-alt: #e31919 !important;
+}
+
+.btn-primary {
+    background-color: var(--primary);
+    border: 1px solid var(--primary);
+}
+
+.btn-primary:hover {
+    background-color: var(--primary-alt);
+    border: 1px solid var(--primary-alt);
+}
+
+.btn-outline-primary {
+    color: var(--primary);
+    background-color: white;
+    border: 1px solid var(--primary);
+}
+
+.btn-outline-primary:hover {
+    background-color: var(--primary-alt);
+    border: 1px solid var(--primary-alt);
+}
+
+#hero {
+    height: 90vh;
+}
