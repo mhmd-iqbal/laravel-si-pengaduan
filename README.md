@@ -56,6 +56,10 @@ php artisan migrate:fresh --seed
 ```
 php artisan serve
 ```
+
+6.  Informasi user untuk login ke dalam aplikasi dapat dilihat pada
+> app/database/seeders/UserSeeder.php
+
 ## Authors
 
 - [GitHub : @mhmd-iqbal](https://www.github.com/mhmd-iqbal)
